@@ -21,7 +21,7 @@ const App = () => (
           <Route path="/compare" element={<ComparePage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <Chatbot /> {/* ✅ Chatbot should be outside <Routes> */}
+        <Chatbot />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>

@@ -49,8 +49,8 @@ const ComparePage = () => {
         criteriaMet: result.criteriaMet,
         criteriaNotMet: result.criteriaNotMet,
         recommendation: result.recommendation,
-        matchedCriteria: result.matchedItems || [], // Ensure default empty array
-        unmatchedCriteria: result.unmatchedItems || [], // Ensure default empty array
+        matchedCriteria: result.matchedItems || [],
+        unmatchedCriteria: result.unmatchedItems || [],
       });
 
       toast({
@@ -78,8 +78,8 @@ const ComparePage = () => {
       criteriaMet: 0,
       criteriaNotMet: 0,
       recommendation: "",
-      matchedCriteria: [], // 🆕 Reset matched criteria
-      unmatchedCriteria: [], // 🆕 Reset unmatched criteria
+      matchedCriteria: [],
+      unmatchedCriteria: [],
     });
   };
 
@@ -88,7 +88,9 @@ const ComparePage = () => {
       <NavBar />
       <main className="flex-1 py-12 px-6 bg-gray-50">
         <div className="max-w-5xl mx-auto">
-          <h1 className="text-3xl font-bold mb-8 text-center">Compare Files</h1>
+          <h1 className="text-3xl font-bold mb-8 text-center">
+            Tender Evolution
+          </h1>
           <div className="mb-8">
             <h2 className="text-xl font-medium mb-4">Baseline File</h2>
             <FileUpload
