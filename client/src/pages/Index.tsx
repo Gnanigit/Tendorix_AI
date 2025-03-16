@@ -135,7 +135,8 @@ const Index = () => {
       <footer className="py-8 px-6 bg-gray-800 text-white">
         <div className="max-w-7xl mx-auto text-center">
           <p>
-            &copy; {new Date().getFullYear()} FileCompare. All rights reserved.
+            &copy; {new Date().getFullYear()} Tender Evolution. All rights
+            reserved.
           </p>
         </div>
       </footer>
