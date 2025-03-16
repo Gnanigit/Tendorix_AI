@@ -60,7 +60,7 @@ const Index = () => {
               className="px-8 py-4 bg-white text-brand-purple rounded-full text-lg font-semibold hover:shadow-lg transition-all"
               onClick={() => navigate("/compare")}
             >
-              Start Comparing
+              Start Evolution
             </button>
           </motion.div>
         </div>
