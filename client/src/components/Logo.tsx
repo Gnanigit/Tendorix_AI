@@ -2,12 +2,13 @@ import React from "react";
 
 const Logo = () => {
   return (
-    <div className="overflow-hidden flex items-center justify-center">
+    <div className="overflow-hidden flex items-center justify-center space-x-2">
       <img
-        src="/tendorix.png"
+        src="/tendorix_dark.png"
         alt="Logo"
-        className="h-[50px] w-[200px] object-contain"
+        className="w-[50px] object-contain"
       />
+      <h1 className="text-3xl font-bold text-white">Tendorix</h1>
     </div>
   );
 };

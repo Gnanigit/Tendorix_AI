@@ -6,7 +6,7 @@ export const uploadAndComparePDFs = async (baselineFile) => {
 
   try {
     const response = await axios.post(
-      "http://localhost:5000/evaluate_tender",
+      "https://tendorix-ai.onrender.com/evaluate_tender",
       formData,
       {
         headers: {
