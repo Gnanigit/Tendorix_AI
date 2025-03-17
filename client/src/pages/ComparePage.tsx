@@ -89,7 +89,7 @@ const ComparePage = () => {
       <main className="flex-1 py-12 px-6 bg-gray-50">
         <div className="max-w-5xl mx-auto">
           <h1 className="text-3xl font-bold mb-8 text-center">
-            Tender Evolution
+            Tender Evaluation
           </h1>
           <div className="mb-8">
             <h2 className="text-xl font-medium mb-4">Baseline File</h2>
