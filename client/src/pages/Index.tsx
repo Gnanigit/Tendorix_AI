@@ -83,7 +83,7 @@ const Index = () => {
           >
             <motion.div variants={fadeIn}>
               <FeatureCard
-                title="Compare Files"
+                title="Evaluate Tenders"
                 icon={FileSearch}
                 onClick={() => navigate("/compare")}
               />
