@@ -112,7 +112,7 @@ const ComparePage = () => {
                 </>
               ) : (
                 <>
-                  Evolute Tender
+                  Evaluate Tender
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </>
               )}
@@ -147,7 +147,8 @@ const ComparePage = () => {
         </div>
       </main>
       <footer className="py-8 px-6 bg-gray-800 text-white text-center">
-        &copy; {new Date().getFullYear()} Tender Evolution. All rights reserved.
+        &copy; {new Date().getFullYear()} Tender Evaluation. All rights
+        reserved.
       </footer>
     </div>
   );

@@ -17,7 +17,7 @@ const NavBar = () => {
             href="/compare"
             className="text-white hover:text-white/80 transition-colors"
           >
-            Tender Evolution
+            Tender Evaluation
           </a>
           <a
             href="/history"

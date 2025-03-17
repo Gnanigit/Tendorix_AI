@@ -42,7 +42,7 @@ const Index = () => {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-              Evolute Tenders with Precision
+              Evaluate Tenders with Precision
             </h1>
             <p className="text-xl md:text-2xl opacity-90 max-w-3xl mx-auto">
               Upload, compare, and analyze your files against baselines to
@@ -60,7 +60,7 @@ const Index = () => {
               className="px-8 py-4 bg-white text-brand-purple rounded-full text-lg font-semibold hover:shadow-lg transition-all"
               onClick={() => navigate("/compare")}
             >
-              Start Evolution
+              Start Evaluation
             </button>
           </motion.div>
         </div>
@@ -135,7 +135,7 @@ const Index = () => {
       <footer className="py-8 px-6 bg-gray-800 text-white">
         <div className="max-w-7xl mx-auto text-center">
           <p>
-            &copy; {new Date().getFullYear()} Tender Evolution. All rights
+            &copy; {new Date().getFullYear()} Tender Evaluation. All rights
             reserved.
           </p>
         </div>
